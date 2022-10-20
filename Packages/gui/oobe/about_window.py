@@ -2,6 +2,7 @@ from distutils.command.config import LANG_EXT
 from tkinter import *
 from tkinter.ttk import *
 import webbrowser
+import os
 #from tkinter.tix import *
 
 __version__ = 'AE1909'
@@ -17,10 +18,10 @@ class about_window():
         self.x_way = 10
         self.left = (self.root.winfo_screenwidth() - self.width) / 2
         self.top = (self.root.winfo_screenheight() - self.height) / 2
-        self.GNU_GPL = open("LICENSE",'r',encoding='utf-8')
+        self.GNU_GPL = open(f"{os.getcwd()}\LICENSE",'r',encoding='utf-8')
         self.GNU_GPL_read = self.GNU_GPL.read()
         self.GNU_GPL.close()
-        self.EULA = open("EULA.txt",'r',encoding='utf-8')
+        self.EULA = open(f"{os.getcwd()}\LICENSE",'r',encoding='utf-8')
         self.EULA_read = self.EULA.read()
         self.EULA.close()
     
@@ -33,7 +34,7 @@ class about_window():
 
     def about_window_canvas(self):
         self.title = Label(self.root,text='FTPReader',font=('Arial',20)).place(x=230,y=10)
-        self.title_gnu = Label(self.root,text='本软件受GNU_GPL协议保护，请认真阅读。').place(x=20,y=50)
+        self.title_gnu = Label(self.root,text='本软件受GNU_GPL协议保护').place(x=20,y=50)
         self.gnu = Text(self.root,width=80,height=10,undo=True)
         self.gnu.insert(END,self.GNU_GPL_read)
         self.gnu.place(x=20,y=70)

@@ -2,6 +2,7 @@ from tkinter import *
 from tkinter import messagebox
 from tkinter.ttk import *
 import webbrowser
+import oobe.about_window
 
 __version__ = 'AE1909'
 
@@ -23,7 +24,7 @@ class homegui():
 
     def menu_set(self):
         self.aboutmenu = Menu(self.home,tearoff=0)
-        self.aboutmenu.add_command(label='about FTPReader',command=self.about_ftpreader)
+        self.aboutmenu.add_command(label='about FTPReader',command=oobe.about_window.run)
 
         self.feedback_menu = Menu(self.home,tearoff=0)
         self.feedback_menu.add_command(label='反馈一个bug     ',command=self.feedback_goto)
@@ -32,7 +33,7 @@ class homegui():
 
 
         self.topmenu = Menu(self.home,tearoff=False)
-        self.topmenu.add_cascade(label='开始')
+        self.topmenu.add_cascade(label='FTPReader')
         self.topmenu.add_cascade(label='设置')
         self.topmenu.add_cascade(label='帮助')
         self.topmenu.add_cascade(label='反馈',menu=self.feedback_menu)

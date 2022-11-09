@@ -1,0 +1,241 @@
+《FTPReader开源软件 用户许可协议》
+最后更新日期：2022/9/30
+
+简体中文：
+
+欢迎使用XFTY(以下简称"开发者")提供的FTPReader软件(以下简称"本软件")，为了确保
+用户(或称"您")和开发者的权益，我们编写的这份用户许可协议(以下简称"本协议")。
+
+目录：
+    1.用户的责任与义务
+    2.版权和知识产权
+    3.免责声明
+    4.条款变更
+    5.其他规定
+
+第一条：用户的责任与义务
+
+    1.用户因自行配备计算机设备。
+
+    2.用户因自行支付本服务的相关网络费、电费等费用。
+
+    3.用户因对本软件产生的法律问题承担责任。
+
+    4.用户因严格遵守中华人民共和国的法律(如果您的国籍并非为中国，也因遵守您的国
+    家的法律)。
+
+    5.为了确保用户的合法权益，用户不得在互联网上做出以下行为：
+        5.1 反对任何中华人民共和国宪法所确定的基本原则；
+
+        5.2 危害国家安全，泄露国家机密，破坏国家地位，损害国家统一；
+
+        5.3 煽动民族仇恨；
+
+        5.4 宣传邪教，破坏民族团结；
+
+        5.5 宣传暴力，色情，污秽，赌博，凶杀或者教唆犯罪；
+
+        5.6 侮辱，诽谤他人或开发者；
+
+        5.7 其他违反中华人民共和国法律内容的。
+
+    上述行为中的任何内容，开发者有权视情节严重程度，对您做出包括但不限于终止服务
+    等处理措施，情节严重的，依据相关法律法规，您应当承担相应的处罚或刑事责任。
+
+    6.除非法律允许和开发者同意，用户不得从事以下行为：
+
+        6.1 不合法，不恰当的使用软件及服务；
+
+        6.2 采取任何行为导致服务崩溃(包括但不限于损害，攻击服务器等或使服务器处于高
+        负荷状态);
+
+        6.3 抄袭、复制开发者所提供的源代码，包括但不限于将源代码复制在其他平台；
+
+        6.4 删除本软件的名称、作者信息、知识产权。
+
+第二条：版权和知识产权
+    7. 本软件的著作权、专利权和其他知识产权，均为开发者或指定版权方所有。
+
+    8. 本软件所使用的第三方服务归相关的版权方所有，包括但不限于：
+        8.1 本软件所使用的全部第三方开源库(如wordcloud、jieba等)；
+
+        8.2 Python的Tcl/Tk模块。
+
+        8.3 网络上的图片。
+
+第三条：免责声明
+    9. 用户理解并同意，开发者可能无法保证用户的全部需求，不保证服务不会中断。
+
+    10. 用户理解并同意，开发者无法保证软件的安全性，任何因软件问题导致安全和经济损
+    失开发者不承担责任。
+
+第四条：条款变更
+    11. 开放者有权利在必要时修改本协议。若条款一旦变动，开发者会通知您，请认真阅
+    读更改后的协议，如果您对更改后的协议不满，您可以主动停止使用并删除开放者提供
+    的任何软件。若因条款变更导致您的损失，开发者不因承担任何责任。
+
+第五条：其他规定
+    12. 本协议适用于中华人民共和国法律，并且排除一切冲突法规规定地适用；
+
+    13. 开发者不行使、未能及时行使或未能充分行使本协议或依据法律规定所享有的权力，
+    不因视为放弃行使该权利，也不影响开发者未来行使该等权利；
+
+    14. 在法律允许的情况下，开发者拥有对本协议条款的解释权。
+
+----------------------------------------------------------------------------
+
+繁体中文：
+
+歡迎使用有XFTY(以下簡稱"開發者")提供的FTPReader軟件(以下簡稱"本軟件")，為了確保
+用戶(或稱"您")和開發者的權益，我們編寫的這份用戶許可協議(以下簡稱"本協議")。
+
+目錄：
+    1.用戶的責任與義務
+    2.版權和知識產權
+    3.免責聲明
+    4.條款變更
+    5.其他規定
+
+第一條：用戶的責任與義務
+
+    1.用戶因自行配備計算機設備。
+
+    2.用戶因自行支付本服務的相關網絡費、電費等費用。
+
+    3.用戶因對本軟件產生的法律問題承擔責任。
+
+    4.用戶因嚴格遵守中華人民共和國的法律(如果您的國籍並非為中國，也因遵守您的國
+    家的法律)。
+
+    5.為了確保用戶的合法權益，用戶不得在互聯網上做出以下行為：
+        5.1 反對任何中華人民共和國憲法所確定的基本原則；
+
+        5.2 危害國家安全，洩露國家機密，破壞國家地位，損害國家統一；
+
+        5.3 煽動民族仇恨；
+
+        5.4 宣傳邪教，破壞民族團結；
+
+        5.5 宣傳暴力，色情，污穢，賭博，兇殺或者教唆犯罪；
+
+        5.6 侮辱，誹謗他人或開發者；
+
+        5.7 其他違反中華人民共和國法律內容的。
+
+    上述行為中的任何內容，開發者有權視情節嚴重程度，對您做出包括但不限於終止服務
+    等處理措施，情節嚴重的，依據相關法律法規，您應當承擔相應的處罰或刑事責任。
+
+    6.除非法律允許和開發者同意，用戶不得從事以下行為：
+
+        6.1 不合法，不恰當的使用軟件及服務；
+
+        6.2 採取任何行為導致服務崩潰(包括但不限於損害，攻擊服務器等或使服務器處於高
+        負荷狀態);
+
+        6.3 抄襲、複製開發者所提供的源代碼，包括但不限於將源代碼複製在其他平台；
+
+        6.4 刪除本軟件的名稱、作者信息、知識產權。
+
+第二條：版權和知識產權
+    7. 本軟件的著作權、專利權和其他知識產權，均為開發者或指定版權方所有。
+
+    8. 本軟件所使用的第三方服務歸相關的版權方所有，包括但不限於：
+        8.1 本軟件所使用的全部第三方開源庫(如wordcloud、jieba等)；
+
+        8.2 Python的Tcl/Tk模塊。
+
+        8.3 網絡上的圖片。
+
+第三條：免責聲明
+    9. 用戶理解並同意，開發者可能無法保證用戶的全部需求，不保證服務不會中斷。
+
+    10. 用戶理解並同意，開發者無法保證軟件的安全性，任何因軟件問題導致安全和經濟損
+    失開發者不承擔責任。
+
+第四條：條款變更
+    11. 開放者有權利在必要時修改本協議。若條款一旦變動，開發者會通知您，請認真閱
+    讀更改後的協議，如果您對更改後的協議不滿，您可以主動停止使用並刪除開放者提供
+    的任何軟件。若因條款變更導致您的損失，開發者不因承擔任何責任。
+
+第五條：其他規定
+    12. 本協議適用於中華人民共和國法律，並且排除一切衝突法規規定地適用；
+
+    13. 開發者不行使、未能及時行使或未能充分行使本協議或依據法律規定所享有的權力，
+    不因視為放棄行使該權利，也不影響開發者未來行使該等權利；
+
+    14. 在法律允許的情況下，開發者擁有對本協議條款的解釋權。
+
+----------------------------------------------------------------------------
+
+English(Translations may be inaccurate!)
+
+Welcome to use the FTPReader software (hereinafter referred to as "the software") provided by XFTY (hereinafter referred to as the "developer"). hereinafter referred to as "this Agreement").
+
+Table of contents:
+    1. Responsibilities and obligations of users
+    2. Copyright and Intellectual Property
+    3. Disclaimer
+    4. Changes to Terms
+    5. Other regulations
+
+Article 1: Responsibilities and Obligations of Users
+
+    1. The user is equipped with computer equipment by himself.
+
+    2. The user pays the relevant network fees, electricity fees and other expenses of the service by himself.
+
+    3. The user is responsible for legal issues arising from the software.
+
+    4. The user strictly abides by the laws of the People's Republic of China (if your nationality is not China, it also abides by the laws of your country).
+
+    5. In order to ensure the legitimate rights and interests of users, users are not allowed to do the following on the Internet:
+        5.1 Oppose any basic principles established by the Constitution of the People's Republic of China;
+
+        5.2 Endanger national security, divulge state secrets, undermine national status, and damage national unity;
+
+        5.3 Incite ethnic hatred;
+
+        5.4 Propagating cults and undermining national unity;
+
+        5.5 Promote violence, pornography, filth, gambling, murder or instigate crime;
+
+        5.6 Insult, slander others or developers;
+
+        5.7 Other contents that violate the laws of the People's Republic of China.
+
+    For any of the above acts, the developer has the right to take action against you, including but not limited to terminating the service, depending on the severity of the circumstances. If the circumstances are serious, you shall bear the corresponding punishment or criminal responsibility in accordance with relevant laws and regulations.
+
+    6. Unless permitted by law and agreed by the developer, users shall not engage in the following acts:
+
+        6.1 Illegal and improper use of software and services;
+
+        6.2 Take any action to cause the service to crash (including but not limited to damage, attack the server, etc. or put the server in a high load state);
+
+        6.3 Plagiarize or copy the source code provided by the developer, including but not limited to copying the source code on other platforms;
+
+        6.4 Delete the name, author information and intellectual property rights of this software.
+
+Article 2: Copyright and Intellectual Property
+    7. The copyrights, patents and other intellectual property rights of this software are owned by the developer or the designated copyright owner.
+
+    8. The third-party services used by this software are owned by the relevant copyright owners, including but not limited to:
+        8.1 All third-party open source libraries (such as wordcloud, jieba, etc.) used by this software;
+
+        8.2 Python's Tcl/Tk module.
+
+        8.3 Pictures on the Internet.
+
+Article 3: Disclaimer
+    9. The user understands and agrees that the developer may not be able to guarantee all the needs of the user, and does not guarantee that the service will not be interrupted.
+
+    10. The user understands and agrees that the developer cannot guarantee the security of the software, and the developer is not responsible for any security and economic losses caused by software problems.
+
+Article 4: Changes to Terms
+    11. The developer has the right to modify this agreement when necessary. If the terms are changed, the developer will notify you. Please read the changed agreement carefully. If you are dissatisfied with the changed agreement, you can take the initiative to stop using and delete any software provided by the developer. The developer does not assume any responsibility for your losses caused by changes to the terms.
+
+Article 5: Other Provisions
+    12. This Agreement shall be governed by the laws of the People's Republic of China, and shall exclude all conflict of laws and regulations;
+
+    13. The developer's failure to exercise, fail to exercise in time or fail to fully exercise the rights enjoyed by this agreement or in accordance with the law shall not be deemed to be a waiver of the exercise of such rights, nor will it affect the future exercise of such rights by the developer;
+
+    14. To the extent permitted by law, the developer has the right to interpret the terms of this agreement.

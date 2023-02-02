@@ -1,7 +1,7 @@
 import sys
 from tkinter import *
 from tkinter import messagebox
-from tkinter.ttk import *
+#from tkinter.ttk import *
 import webbrowser
 try:
     from oobe.about_window import *
@@ -23,8 +23,14 @@ class homegui():
         self.home.title(f'FTPReader {__version__} Professional')
         self.home.geometry("{}x{}+{}+{}".format(int(self.width),int(self.height),int(self.left),int(self.top)))
         self.home.resizable(False,False)
+        self.home.iconbitmap('icon/jc4.ico')
         self.menu_set()
+        self.home_main()
         self.home.mainloop()
+
+    def home_main(self):
+        self.toplmenu = Label(self.home,text='FTPReader ',font=('Arial',20)).place(x=50,y=10)
+        self.toplmenu2 = Label(self.home,text='主页',font=('simhei',15),).place(x=50,y=50)
 
     def menu_set(self):
         self.aboutmenu = Menu(self.home,tearoff=0)

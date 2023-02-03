@@ -1,52 +1,51 @@
 # FTPReader
-![](https://img.shields.io/badge/Build-None-red.svg?style=flat-square)
-![](https://img.shields.io/badge/Under_development-Yes-red.svg?style=flat-square)
-![](https://img.shields.io/badge/Version-v1.8_pre_release-yellow.svg?style=flat-square)
-![](https://img.shields.io/badge/License-GNU_LGPL-green.svg?style=flat-square)
-![](https://img.shields.io/badge/Machine_translate-Yes-green.svg?style=flat-square)  
-#### Language: English | [简体中文(Chinese Simplified)](https://github.com/XFTY/FTPReader/tree/main/doc/README-CHINSES/README.md)
-#### <font color=lightseagreen> 如果你想了解自述文件的原始信息，请访问中文文档。 </font>  
-#### <font color=lightseagreen>If you want to know the original information of the readme file, please visit the Chinese documentation.</font>  
-## Introduction
-FTPReader is a **free** and **open source** for automatic server file  transfers
-Project, which can be used by users who need to automatically transfer files on a regular basis.
-## Table of Contents
- - Security
- - Installation
- - Usage
- - Application Programming Interface (API)
- - Permit
- - Contributors
-## Security
- - This software **does not** guarantee 100% of the security of files during data transfer, so please do not use this software for some sensitive file transfers (important!).
-## Install
-**important!**  
-This software is still in the development stage, this installation method is only an envisaged method, the actual change is subject to change!
+![](https://img.shields.io/badge/构建-未知-red.svg?style=flat-square)
+![](https://img.shields.io/badge/开发中-是-yellow.svg?style=flat-square)
+![](https://img.shields.io/badge/版本-v1.8_pre_release_预发布-yellow.svg?style=flat-square)
+![](https://img.shields.io/badge/许可证-GNU_LGPL_v2.1-green.svg?style=flat-square)  
+![](https://img.shields.io/badge/机器翻译-No-red.svg?style=flat-square)
+#### <font color=lightblue>简体中文文档</font>  
+## 简介
+FTPReader是一个适用于服务器文件自动传输的**免费**且**开源**的  
+项目，可用于文件定时自动传输需求的用户。
+## 目录
+- 安全性
+- 安装
+- 使用
+- 应用程序接口(API)
+- 贡献者
+- 许可证
 
-To run this program, please install [Python3 (≥ 3.8)](https://www.python.org/downloads).  
+## 安全性
+ - 本软件**并不能**100%保证数据传输时文件的安全，因此，对于一些敏感文件传输，请不要使用本软件(重要！)
 
-1. Clone this repository
-        
+## 安装
+ - **重要！**  
+ 本软件仍在开发阶段，本安装方法仅为预想方法，实际可能会有变更！
+
+为了运行这个程序，请先安装好[Python3(≥3.8)](https://www.python.org/downloads).  
+
+1. 克隆这个仓库文件  
+
         git clone https://www.github.com/XFTY/FTPReader
-
-2. Go to the folder  
+2. 进入文件夹   
 
         cd yourfilepath
 
-3. Run the file using Python3
+3. 使用Python3运行文件
 
-        python3 launcher.py
-        or
         python launcher.py
+        or
+        python3 launcher.py
 
-## API
-Nothing here ... 
+## 应用程序接口(API)
+有待补充......
+## 帮助我们
+- 如果您对我(们)的项目感兴趣，您可以通过拉取请求来帮助我们(虽然我对"拉取请求"并不是很了解...)，非常感谢！
+## 最后
+该项目仍在开发阶段，虽然软件并没有成型，但还是提前祝您使用愉快！  
 
-## Help us
-- If you are interested in our project, you can help us by pulling a request, thank you very much!
 
-## Finally
-The project is still in the development stage, although the software is not yet formed, but I wish you a pleasant use in advance!  
 
-License: GNU-LGPL  
-Copyright: XFTY, All Rights Reserved.
+自由软件许可证 : GNU-LGPL v2.1  
+版权所有: XFTY, 保留所有权利.

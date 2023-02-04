@@ -4,6 +4,7 @@
 
 import getpass
 import os
+# print(os.getcwd())
 import sys
 from tkinter import *
 from tkinter import messagebox
@@ -11,8 +12,21 @@ from tkinter.ttk import *
 from typing import *
 import zinfo
 import beula
+import json
 
 #import init_sittings
+
+with open("lang/default.json", "r") as f:
+    cache = f.read()
+    langcache = json.loads(cache)
+    try:
+        with open("lang/{}/asetup.json".format(langcache["default"]), "r", encoding="utf-8") as f1:
+            lang = f1.read()
+            lang = json.loads(lang)
+    except Exception as e:
+        messagebox.showerror("error", "There was an error before loading the language file\nCannot found this file:\n{}".format(e))
+        sys.exit()
+
 
 __version__ = zinfo.__version__
 
@@ -56,22 +70,26 @@ class welcomegui():
         #第一阶段GUI界面
         self.first_list = [None,'self.versiontitle']
         self.versiontitle = Label(self.root,text=f'version:{__version__}',font=('Arial',10)) # 显示版本信息
-        self.forwho = Label(self.root,text='配置端')
-        self.notes = Label(self.root,text='由A.S.C Workgroup提供源代码，详情请前往 https://www.github.com/XFTY')
-        self.notes2 = Label(self.root,text='项目仍在公测中，软件可能不稳定，如果您发现了软件的bug，可以上传到github的issue页面反馈。')
-        self.copyright1 = Label(self.root,text='版权所有：A.S.C Team，保留所有权利。')
-        self.welcome_title = Label(self.root,text='欢迎使用！',font=('simhei',20))
-        self.vie = Label(self.root, text="若要继续，请点击'下一步'。")
+        try:
+            self.forwho = Label(self.root,text=lang["forwho"])
+            self.notes = Label(self.root,text=lang["notes"])
+            self.notes2 = Label(self.root,text=lang["notes2"])
+            self.copyright1 = Label(self.root,text=lang["copyright1"])
+            self.lang_tra = Label(self.root, text=lang["lang_tra"])
+            self.welcome_title = Label(self.root,text=lang["welcome_title"],font=('simhei',20))
+            self.vie = Label(self.root, text=lang["vie"])
 
-        self.cancel_button = Button(self.root,text='  退出安装程序  ',command=self.exit)
-        self.go_next_button = Button(self.root,text='下一步',command=self.go_next1)
+            self.cancel_button = Button(self.root,text=lang["cancel_button"],command=self.exit)
+            self.go_next_button = Button(self.root,text=lang["go_next_button"],command=self.go_next1)
 
-        self.leftlabel = Label(self.root,text='目录:',foreground='white',background='#272727', font=('simhei', 15))
-        self.leftlabel.place(x=10,y=10)
-        self.leftlabel2 = Label(self.root, text="欢迎界面", foreground="white", background="#272727")
-        self.leftlabel2.place(x=40, y=40)
-
+            self.leftlabel = Label(self.root,text=lang["leftlabel"],foreground='white',background='#272727', font=('simhei', 15))
+            self.leftlabel.place(x=10,y=10)
+            self.leftlabel2 = Label(self.root, text=lang["leftlabel2"], foreground="white", background="#272727")
+            self.leftlabel2.place(x=40, y=40)
+        except KeyError as e:
+            messagebox.showerror("error", "There was an error before loading the language file\nSome key is lost, please check it\nlostkey: {}".format(e))
         self.LeftCanvas.pack(side='left') 
+        self.lang_tra.place(x=310, y=190)
         self.title.place(x=310,y=10)
         self.versiontitle.place(x=310,y=50)
         self.forwho.place(x=310,y=70)
@@ -81,8 +99,8 @@ class welcomegui():
         self.leftlabel.place(x=10,y=self.x_way)
         self.go_next_button.place(x=900,y=480)
         
-        self.welcome_title.place(x=310,y=210)
-        self.vie.place(x=310, y=250)
+        self.welcome_title.place(x=310,y=230)
+        self.vie.place(x=310, y=270)
         self.cancel_button.place(x=310,y=480)
         
         self.root.protocol("WM_DELETE_WINDOW",self.exit)
@@ -116,7 +134,7 @@ class welcomegui():
         print(1)
 
     def exit(self):
-        if messagebox.askquestion('退出','确定退出？') == 'yes':
+        if messagebox.askquestion('exit','exit？') == 'yes':
             os.system("rmdir /s/q C:\\Users\\{}\\Documents\\FTPReader".format(getpass.getuser()))
             sys.exit(0)
 

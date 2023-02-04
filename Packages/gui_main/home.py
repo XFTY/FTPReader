@@ -6,7 +6,7 @@ import webbrowser
 try:
     from oobe.about_window import *
 except ImportError:
-    from Packages.gui.oobe.about_window import *
+    from Packages.gui_main.oobe.about_window import *
 
 __version__ = 'AE1909'
 

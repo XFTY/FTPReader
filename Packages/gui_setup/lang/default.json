@@ -1,0 +1,5 @@
+{
+    "#":"this is a language config file, change it may failed to load!",
+    "default":"zh-CN",
+    "LangPathDirNames":["zh-CN", "en-US"]
+}

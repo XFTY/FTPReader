@@ -112,19 +112,6 @@ class welcomegui():
         sys.exit(0)
 
     def go_next1(self) -> NoReturn:
-        '''
-        
-        '''
-
-        '''
-        self.versiontitle.place_forget()
-        self.forwho.place_forget()
-        self.notes.place_forget()
-        self.notes2.place_forget()
-        self.copyright1.place_forget()
-        self.welcome_title.place_forget()
-        self.go_next_button.configure(command=self.go_next2)
-        '''
         self.root.destroy()
         beula.eula2()
         sys.exit(0)

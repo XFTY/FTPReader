@@ -49,4 +49,4 @@ Nothing here ...
 The project is still in the development stage, although the software is not yet formed, but I wish you a pleasant use in advance!  
 
 License: GNU-LGPL  
-Copyright: XFTY, All Rights Reserved.
+Dev: XFTY

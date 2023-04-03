@@ -4,7 +4,7 @@
 ![](https://img.shields.io/badge/Version-v1.8_pre_release-yellow.svg?style=flat-square)
 ![](https://img.shields.io/badge/License-GNU_LGPL-green.svg?style=flat-square)
 ![](https://img.shields.io/badge/Machine_translate-Yes-green.svg?style=flat-square)  
-#### Language: English | [简体中文(Chinese Simplified)](https://www.github.com/XFTY/FTPReader/doc/README_CHINESE.md)
+#### Language: English | [简体中文(Chinese Simplified)](https://github.com/XFTY/FTPReader/blob/main/doc/README-CHINSES/README.md)
 #### <font color=lightseagreen> 如果你想了解自述文件的原始信息，请访问中文文档。 </font>  
 #### <font color=lightseagreen>If you want to know the original information of the readme file, please visit the Chinese documentation.</font>  
 ## Introduction

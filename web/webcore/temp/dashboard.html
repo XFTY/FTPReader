@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <style>
+            * {
+                margin: 0;
+            }
+            .userimg {
+                width: 35px;
+                height: 35px;
+                border-radius: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            .userimgbutton {
+                border: none;
+                outline: none;
+                background-color: #333;
+                padding: 0;
+            }
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: auto;
+                background-color: #333;
+                float: none;
+            }
+            li {
+                text-align: center;
+                display: inline;
+                float: left;
+                padding: 20px 25px;
+                float: left;
+            }
+            ul li a {
+                text-decoration: none;
+                margin: 0;
+                display: block;
+                font-size: 20px;
+                color: white;
+            }
+            .rights {
+                float: right;
+                padding-top: 15px;
+                padding-bottom: 0;
+                text-align: center;
+            }
+            .overplay {
+                position: fixed;
+                left: 0px;
+                top: 0px;
+                width: 100%;
+                height: 100%;
+                font-size: 16px;
+                float: right;
+                /*display: none;*/
+            }
+            .popuserinfo {
+                background-color: #222fff;
+                height: 100%;
+                width: 300px;
+                text-align: right;
+            }
+        </style>
+    </head>
+    <body>
+        <!--菜单栏部分-->
+        <ul>
+            <li>
+                <a>FTPReader-Dashboard</a>
+            </li>
+            <li class="rights">
+                <button id="showUserInfo" class="userimgbutton">
+                    <img src="D:\kernel\FTPReader-main\web\webcore\temp\textimg\03-01.jpg" class="userimg">
+                </button>
+            </li>
+        </ul>
+        <!--用户信息弹出窗口-->
+        <div class="overplay">
+            <div class="popuserinfo">
+                <a>sfsfsdf</a>
+            </div>
+        </div>
+        <script type="main/javascript" src="dashboard.js"></script>
+    </body>
+</html>
